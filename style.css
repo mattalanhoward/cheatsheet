@@ -12,9 +12,18 @@ h2{
     background-color: #F6ECE0
 }
 
+.git{
+    height: auto;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    line-height: 25px;
+    border: 1px solid black;
+}
+
 p,
 h2 {
-margin:0 auto;
+margin: 0px auto;
 width: 1000px;
 }
 
@@ -24,22 +33,23 @@ thead{
     font-size: 20px;
     border: 1px solid white;
     text-align: left;
+
 }
 tbody{
     background-color: white;
     text-align: left;
     font-size: 16px;
-    color: blue;
+    color: black;
     border: 1px solid black;
 }
 
 .table{
-        margin:0 auto;
-        height: 300px;
+        margin: 0px auto 20px auto;
         width: 1000px;
         border: 1px solid black;
         border-collapse: collapse;
         border-spacing: 2px;
+        line-height: 25px;
 
 }
 
