@@ -9,7 +9,17 @@ h1{
 }
 
 h2{
+    height: 25px;
+    width: 1000px;
+    background-color: #61291C;
+    margin: 50px auto 10px auto;
+    padding-left: 5px;
+
+}
+
+h3{
     background-color: #F6ECE0
+    padding-left: 5px;
 }
 
 .git{
@@ -22,7 +32,7 @@ h2{
 }
 
 p,
-h2 {
+h3 {
 margin: 0px auto;
 width: 1000px;
 }
@@ -56,6 +66,10 @@ tbody{
 tr{
     border: 1px solid black;
 
+}
+
+td{
+    padding-left: 5px;
 }
 
 tr:nth-child(even) {
